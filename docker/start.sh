@@ -3,6 +3,6 @@
 docker run \
     -d \
     --name some-nginx \
-    --network:host \
+    --network host \
     -v "${HONE}": '/root' \
     nginx:alpine
