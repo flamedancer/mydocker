@@ -4,5 +4,5 @@ docker run \
     -d \
     --name some-nginx \
     --network host \
-    -v "${HONE}": '/root' \
+    -v "${HONE}":/root \
     nginx:alpine
